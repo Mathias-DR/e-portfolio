@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>E-portfolio - Compétences</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <body>
+      <div class="header_section contact-header">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand" href="index.html">E-Portfolio</a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">À propos</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="what-we.html">Projets</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Compétences</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="exp.html">Expériences</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+
+               </div>
+            </nav>
+         </div>
+      <style>
+         /* Styles pour les compétences en carré */
+         .competence-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #f7f7f7;
+         }
+
+         .competence-section h2 {
+            margin-bottom: 30px;
+            font-size: 2em;
+            color: #333;
+         }
+
+         .competence-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+         }
+
+         .competence-card {
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 180px;
+            padding: 20px;
+            text-align: center;
+         }
+
+         .competence-card img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            margin-bottom: 15px;
+         }
+
+         .competence-card h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+         }
+
+         .competence-card .progress {
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 10px;
+            margin-top: 10px;
+         }
+
+         .competence-card .progress .progress-bar {
+            height: 100%;
+            background-color: #007bff;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Section Analyse Statistique -->
+      <div class="competence-section">
+         <h2>Analyse Statistique</h2>
+         <div class="competence-grid">
+            <div class="competence-card">
+               <img src="images/descriptive.png" alt="Descriptive">
+               <h3>Descriptive</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 85%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/inferentielle.png" alt="Inférentielle">
+               <h3>Inférentielle</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 85%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/tests.png" alt="Tests">
+               <h3>Tests</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 85%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/series-temporelles.png" alt="Séries temporelles">
+               <h3>Séries temporelles</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 85%;"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Section Gestion et structuration de bases de données -->
+      <div class="competence-section">
+         <h2>Gestion et structuration de bases de données</h2>
+         <div class="competence-grid">
+            <div class="competence-card">
+               <img src="images/r.png" alt="R Studio">
+               <h3>R Studio</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 85%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/python.png" alt="Python">
+               <h3>Python</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 60%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/excel.png" alt="Excel">
+               <h3>Excel</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 90%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/access.png" alt="SQL">
+               <h3>Access</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 80%;"></div>
+               </div>
+            </div>
+			<div class="competence-card">
+               <img src="images/SAS.webp" alt="SQL">
+               <h3>SAS</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 80%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/CSS.png" alt="SQL">
+               <h3>CSS/HTML</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 85%;"></div>
+               </div>
+            </div>
+			<div class="competence-card">
+               <img src="images/PowerBI.png" alt="SQL">
+               <h3>PowerBI</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 90%;"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Section Communication -->
+      <div class="competence-section">
+         <h2>Communication</h2>
+         <div class="competence-grid">
+            <div class="competence-card">
+               <img src="images/fr.png" alt="Français">
+               <h3>Français</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 90%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/ang.webp" alt="Anglais">
+               <h3>Anglais</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 70%;"></div>
+               </div>
+            </div>
+            <div class="competence-card">
+               <img src="images/esp.png" alt="Espagnol">
+               <h3>Espagnol</h3>
+               <div class="progress">
+                  <div class="progress-bar" style="width: 50%;"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  
+	<!-- footer section start -->
+	<div class="footer_section layout_padding">
+	   <div class="container">
+		  <div class="row">
+			 <div class="col-md-12">
+				<div class="location_text">
+				   <ul>
+					  <!-- Lien vers Google Maps (Localisation) -->
+					  <li>
+						 <a href="https://www.google.com/maps?q=07+Rue+Manuel,+75009+Paris" target="_blank">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+						 </a>
+					  </li>
+					  <!-- Lien vers téléphone -->
+					  <li>
+						 <a href="tel:+33663942061">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+						 </a>
+					  </li>
+					  <!-- Lien vers email -->
+					  <li style="position: relative;">
+						 <a href="#" id="emailButton" style="display: inline-block; position: relative;">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						 </a>
+						 <!-- L'email est affiché à droite de l'icône -->
+						 <span id="emailText" style="display:none; position: absolute; top: -15px; left: 40px; font-size: 14px; color: #000; background-color: #fff; padding: 2px 5px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);">
+							mathias.deridder05@gmail.com
+						 </span>
+					  </li>
+				   </ul>
+				</div>
+			 </div>
+		  </div>
+	   </div>
+	</div>
+      <!-- footer section end -->
+
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2020 All Rights Reserved. Design by Mathias De ridder</p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+
+      <!-- JavaScript pour afficher l'email et copier dans le presse-papiers -->
+      <script>
+         document.getElementById('emailButton').addEventListener('mouseenter', function() {
+            document.getElementById('emailText').style.display = 'inline';
+         });
+
+         document.getElementById('emailButton').addEventListener('mouseleave', function() {
+            document.getElementById('emailText').style.display = 'none';
+         });
+
+         document.getElementById('emailButton').addEventListener('click', function(event) {
+            event.preventDefault();
+            var email = 'mathias.deridder05@gmail.com';
+            navigator.clipboard.writeText(email).then(function() {
+               alert('Email copié dans le presse-papiers : ' + email);
+            }).catch(function(error) {
+               alert('Erreur de copie : ' + error);
+            });
+         });
+      </script>
+   </body>
+</html>
